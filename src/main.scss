@@ -1,0 +1,31 @@
+@font-face {
+	font-family: Montserrat;
+	src: url('./fonts/Montserrat-Regular.ttf');
+}
+.page-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: #eee;
+	padding: 10px 0;
+	font-family: Montserrat;
+	&-text {
+		flex: none;
+    color: #0d30cc;
+    font-size: 40px;
+	}
+	&-logo {
+		display: block;
+		height: 30px;
+    padding: 0 12px;
+		flex: none;
+	}
+}
+
+main {
+	padding-top: 50px;
+}
