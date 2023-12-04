@@ -1,0 +1,16 @@
+{
+  "name": "shop-skillbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "navigo": "^8.11.1",
+    "parcel": "^2.10.3",
+    "redom": "^3.29.1"
+  }
+}
